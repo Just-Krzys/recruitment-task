@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie Rekrutacyjne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <button onclick="toggleMenu()" class="burger"></button>
+            <ul class="menu max-width">
+                <li class="menu-item"><a class="links" href="#advantage">Korzyści</a></li>
+                <li class="menu-item"><a class="links" href="#gallery">O nas</a></li>
+                <li class="menu-item"><a class="links" href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <section class="advantage max-width" id="advantage">
+            <div class="advantage__title">
+                <h1>
+                    KORZYŚCI
+                </h1>
+            </div>
+            <div class="advantage__pictures">
+                <img class="advantage__picture safe-transfer" src="./src/picture/advantage/safe-transfer.png" alt="">
+                <div class="advantage-desc advantage-desc-safe-transfer">
+                    <h3>Dożywotnia gwarancja</h3>
+                    <p>Wybierając nasze skrzynie transportowe otrzymujesz dożywotnią gwarancję.</p>
+                </div>
+                <img class="advantage__picture package" src="./src/picture/advantage/package.png" alt="">
+                <div class="advantage-desc advantage-desc-package">
+                    <h3>Możliwość zwrotu</h3>
+                    <p>Możliwość wymiany lub zwrotu kosztów.</p>
+                </div>
+                <img class="advantage__picture shoping-package" src="./src/picture/advantage/shoping-package.png"
+                    alt="">
+                <div class="advantage-desc advantage-desc-shoping-package">
+                    <h3>Sprawna dostawa</h3>
+                    <p>Zapewniamy sprawną dostawę na terenie całej Polski.</p>
+                </div>
+                <img class="advantage__picture arrow " src="./src/picture/advantage/arrow.png" alt="">
+                <div class="advantage-desc advantage-desc-arrow">
+                    <h3>Różnorodna oferta</h3>
+                    <p>Proponujemy wybór spośród wielu wymiarów,modeli i kolorów.</p>
+                </div>
+                <img class=" suitcase " src="./src/picture/advantage/suitcase.png" alt="">
+            </div>
+        </section>
+        <section class="gallery max-width" id="gallery">
+            <h2 class="gallery__title">O nas</h2>
+            <div class="gallery__pictures">
+                <img class="gallery__img multi-suitcase" src="./src/picture/about us/multi-suitcase.png" alt="">
+                <div class="gallery__paragraph desc-multi-suitcase">
+                    <p>Jesteśmy specjalistami w branży skrzyń transportowych. Zajmujemy się sprzedażą skrzyń tylko od
+                        rzetelnych producentów.</p>
+                </div>
+                <img class="gallery__img red-and-gray" src="./src/picture/about us/red-and-gray.png" alt="">
+                <div class="gallery__paragraph desc-red-and-gray">
+                    <p>Prezentujemy szeroką ofertę szkyrzyń kanadyjskiej - sprawdzonego producenta obecnego na rynku
+                        skrzyń transportowych od prwaie 40 lat</p>
+                </div>
+
+                <img class="gallery__img feature-wheels" src="./src/picture/about us/feature-wheels.png" alt="">
+                <div class="gallery__paragraph desc-feature-wheels">
+                    <p>Znajdź skrzynię dopasowaną do Twoich potrzeb.
+
+                        Oferta obejmuje rozwiązania dla sprzętów: militarnych, medycznych, sportowych, fotograficznych i
+                        profesjonalnych urządzeń elektronicznych. Skrzynie dostępne w szerokiej palecie kolorystycznej -
+                        do 10 kolorów.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-photo" id="contact">
+            <div class="contact-box max-width">
+                <div class="contact-title">
+                    <h2>
+                        Formularz Kontaktowy
+                    </h2>
+                </div>
+                <div class="contact-form">
+                    <div class="contact-form-box">
+                        <div class="contact-form-box-left">
+                            <div class="contact-form-box-label">
+                                <label for="">Imię i nazwisko <sup>*</sup></label>
+                            </div>
+                            <div>
+                                <input type="text" class="input-design" placeholder="Wpisz imię i nazwisko">
+                            </div>
+                            <div class="contact-form-box-label">
+                                <label for="">E-mail <sup>*</sup></label>
+                            </div>
+                            <div>
+                                <input type="email" class="input-design" placeholder="Wpisz e-mail">
+                            </div>
+                            <p class="wrong">Niepoprawny adres e-mail</p>
+                        </div>
+                        <div class="contact-form-box-right">
+                            <div class="contact-form-box-label">
+                                <label for="">Nazwa firmy <sup>*</sup></label>
+                            </div>
+                            <div>
+                                <input type="text" class="input-design" placeholder="Wpisz nazwę firmy">
+                            </div>
+                            <div class="contact-form-box-label">
+                                <label for="">Telefon <sup>*</sup></label>
+                            </div>
+                            <div>
+                                <input type="tel" class="input-design" placeholder="Wpisz numer">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="contact-form-box-center">
+                        <div class="contact-form-box-center-label">
+                            <label for="">Wiadomość <sup>*</sup></label>
+                        </div>
+                        <div class="contact-form-box-center-textarea">
+                            <textarea placeholder="Wpisz treść wiadomości" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="checkbox-box">
+                            <div class="checkbox">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                            <div class="rules">
+                                <p>* Oświadczam, że zapoznałem się i akceptuję Regulamin. Wyrażam zgodę na
+                                    przetwarzanie moich danych osobowych przez N-Cases, w celu świadczenia usług w
+                                    ramach serwisu oraz kontaktu za pomocą urządzeń końcowych telekomunikacyjnych
+                                    związanego ze zgłoszeniem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="send-button">Wyślij →</button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer-box max-width">
+                <div class="policy">
+                    <p>Polityka Prywatności</p>
+                </div>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px"
+                        height="27px">
+                        <image x="0px" y="0px" width="28px" height="27px"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAQAAADFASenAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmCwwNGTMdx4fLAAABR0lEQVQ4y6WUMU4CURCGP1YSSAAjCYW1XoDCBMtNhEQ7Kk5ArKUiJngHYscVaLTThBPYEC8gMdJYbEJhAYr+a+FClmVAWGaazdv/ezNv9u2fEJFIcc4FJY7JAR+88MQDj3xGdApnRi158o30dKNMWBvGyhqa0CyHKltgQ1qL+fIlNaJg819ols0wWN0Y8+WrOgML5kB+dCtXRRXVWBpU4Q9sm/vOT2P00xYor7GBfSklhA6Nir7GyiepkWY53oMPfk/JeJum5lDBCs0ldlTQwGj0SqfB+U7k6tpQDNC3sewuXMRLQzF12DMaybIfPOU44MhQJO2Kvl6Das8rLsHU4Y04MXToxwL7Dr1YYM+hy2RrbELXYURna7DDaNXfsW6qngoiCXjUuYvsmcYFIGvUq+OxqwPs4DmbudyZbY/rfbW16KuJuE7+C1gSEynMtjUtAAAAAElFTkSuQmCC" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28px"
+                        height="28px">
+                        <image x="0px" y="0px" width="28px" height="28px"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAQAAADYBBcfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmCwwNGSHufvaDAAABYklEQVQ4y6VVPUvDUBQ9eTS0i10chNLFIUO3ThLoUERwyF6cdbNLfk43HUSKfyCDdBWKOnfJ4FZwELQuHZrznPI+Q4PNPcu7L+fw7nv3IwHhWAuXSBAjQhfABjmWyPCMncOjiZAp15QVWDNlaHJN2ZCrSlGJFYdVwgm3e2WSkltOXOGERa1MUrIopWWQ9afpU4elMKy5m3/XkBAAphg4T13gx4CbsQGmANgyEvDIEXtsEw467HPMuZGcFpgo952BJzER8E1xE4FEhbCAxD6TWKh1IhAr58OiXeHIk2pGLBAp58si3SLHNYS1pxmRQFc5bhmf4A6vGFmvXVpX4EAT2BgNZdsnbnCGF2NHMzYCuXKOLdkMEe6d5GtGLrBUzqlFesKvF59mLAUy5Vwg2HutAOdqndklN+eYfXa8mmmzxxEf7JID04qu+zaw876nDdqqUSM3GB0NhlWD8fjPgRwc+gv4A7+MDPzuVBQlAAAAAElFTkSuQmCC" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27px"
+                        height="27px">
+                        <image x="0px" y="0px" width="27px" height="27px"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAQAAAAn3TzeAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfmCwwNGCiOuX9mAAABY0lEQVQ4y6WUPS9DURzGfz3XIFaSTnUHLB2kBhYiUZtEYrL4AncR/RC+gUkXV9Kpg4VRKpGYSNTSzUuVoYswlKX3YeDenN7WrdbzDCd58v+d15x/SsSUZpM8OTI4BDSoUqFMM1Yl2658tfXZ5bZ8uXalDXlq9UBCt+R1Y46KCUjoopxO7C/QN2hhXhQ/6KkP6IWYG51pV8joIBFryf3G/CiaFUJrfdbzBUpbV74nR6M66oO1lUbbHdGb3v9wMdsj5K23P+EWmGOZc66BLAvsc8MEWyxYdXl0b82yIYQK+lRBCK1rJnrXQ6vu3pDhdx1zxyQGCNjhI8ozBicBG+OKOqcAvHIR5Y4hSMBWyQErPzt6jvLA0EjAxmNjqIahyuCqGipDYBVDOfF0vRRQNjQpDYiVaKYELjXGADjjEcgyzyU1YJpFAI55AZaYAt7JUo//t/72/v27h+4lQ3auAftkariu/AVXr+ANg1jV8QAAAABJRU5ErkJggg==" />
+                    </svg>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

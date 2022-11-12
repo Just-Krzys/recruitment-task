@@ -1,0 +1,9 @@
+:root{
+    --gray-color:gray;
+    --light-gray-color:#F9F9F9;
+    --red-color:#dd2f30;
+    --white-on-black-color:#fff;
+    --footer-color:#676767;
+    --navbar-color:rgba(255, 255, 255, 0.9);
+    --inside-box-padding:0.8rem;
+}
